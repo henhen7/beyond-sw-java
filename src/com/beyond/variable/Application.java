@@ -1,6 +1,7 @@
 package com.beyond.variable;
 
 import com.beyond.variable.practice.A_Variable;
+import com.beyond.variable.practice.B_ConsoleOutput;
 
 public class Application {
     /*
@@ -17,9 +18,9 @@ public class Application {
     public static void main(String[] args) {
         // opt + 방향키: 선택된 범위 위/아래 방향으로 이동
 
-        /* 1) 실행할 메소드가 있는 클래스를 생성(new)한다.
-         *	[표현법]
-         *	클래스명 변수명 = new 클래스명();
+        /** 1) 실행할 메소드가 있는 클래스를 생성(new)한다.
+         *  [표현법]
+         *	 클래스명 변수명 = new 클래스명();
          */
 
         //1-1) import 문을 사용하지 않고 클래스 생성
@@ -27,13 +28,18 @@ public class Application {
 
         //1-2) import 문을 사용하는 경우(Command+shift+O)
         A_Variable variable = new A_Variable();
+        B_ConsoleOutput Output = new B_ConsoleOutput();
 
-        /* 2) 생성한 클래스로 메소드 실행(호출)
-         * 	[표현법]
+        /** 2) 생성한 클래스로 메소드 실행(호출)
+         * [표현법]
          * 	변수명.메소드명();
          */
-        variable.variableTest();
+        //variable.variableTest();
+        //variable.autoCasting();
+        //variable.casting();
+        //variable.practice();
 
+        Output.valuePrint();
     }
 
 }

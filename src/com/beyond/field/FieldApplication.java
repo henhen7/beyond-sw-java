@@ -20,5 +20,8 @@ public class FieldApplication {
         user2.name = "김철수";
         System.out.println(user2.name);
         //System.out.println(user.password);
+
+        //변수 구분 테스트
+        user.test(100);
     }
 }

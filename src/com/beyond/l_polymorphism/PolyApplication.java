@@ -5,7 +5,7 @@ import com.beyond.l_polymorphism.practice.Product;
 import com.beyond.l_polymorphism.practice.SmartPhone;
 import com.beyond.l_polymorphism.practice.Television;
 
-public class polyApplication {
+public class PolyApplication {
     public static void main(String[] args) {
         // 1. 부모 타입의 참조 변수로 부모 인스턴스를 다루는 경우
         Product product = new Product();

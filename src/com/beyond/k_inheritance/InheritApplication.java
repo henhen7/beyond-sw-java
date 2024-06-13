@@ -5,7 +5,7 @@ import com.beyond.k_inheritance.practice.Desktop;
 import com.beyond.k_inheritance.practice.SmartPhone;
 import com.beyond.k_inheritance.practice.Television;
 
-public class inheritApplication {
+public class InheritApplication {
     public static void main(String[] args) {
         Desktop desktop2 = new Desktop();
         //Desktop 객체 생성

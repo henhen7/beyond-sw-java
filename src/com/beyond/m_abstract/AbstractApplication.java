@@ -4,7 +4,7 @@ import com.beyond.m_abstract.practice.BasketBall;
 import com.beyond.m_abstract.practice.FootBall;
 import com.beyond.m_abstract.practice.Sports;
 
-public class abstractApplication {
+public class AbstractApplication {
     public static void main(String[] args) {
         // 추상 클래스는 미완성 클래스이기 때문에 객체 생성이 불가능하다.
         // Sports sports = new Sports(5);

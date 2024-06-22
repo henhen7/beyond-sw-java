@@ -1,9 +1,5 @@
 package com.beyond.z_practice;
 
-import com.beyond.z_practice.practice1.Product;
-
-import java.util.Arrays;
-
 public class Application {
 //    public static void main(String[] args) {
 //        Product product1 = new Product

@@ -25,12 +25,13 @@ public class IOApplication {
                 fd.fileOpen();
                 break;
             case 3:
+                fd.fileEdit();
                 break;
             case 4:
-                break;
+                System.out.println("프로그램을 종료합니다.");
+                return;
             default:
                 System.out.println("잘못된 번호 입력입니다.");
-                return;
         }
     }
 }

@@ -1,6 +1,6 @@
-package com.beyond.z_practice;
+package com.beyond.zz_practice;
 
-import com.beyond.z_practice.practice2.model.dao.FileDao;
+import com.beyond.zz_practice.practice2.model.dao.FileDao;
 
 import java.util.Scanner;
 

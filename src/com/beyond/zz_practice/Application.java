@@ -1,4 +1,4 @@
-package com.beyond.z_practice;
+package com.beyond.zz_practice;
 
 public class Application {
 //    public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.beyond.z_practice.practice1;
+package com.beyond.zz_practice.practice1;
 
 public class Product {
     private String id;

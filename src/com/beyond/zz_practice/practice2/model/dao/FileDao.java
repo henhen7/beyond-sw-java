@@ -1,4 +1,4 @@
-package com.beyond.z_practice.practice2.model.dao;
+package com.beyond.zz_practice.practice2.model.dao;
 
 import java.io.*;
 import java.util.Scanner;

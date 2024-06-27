@@ -13,6 +13,9 @@ public class Student implements Comparable<Student>{
     private String gender;
     private int math;
     private int english;
+    public double avg() {
+        return (this.math + this.english) / 2.0;
+    }
 
     @Override
     public int compareTo(Student student) {

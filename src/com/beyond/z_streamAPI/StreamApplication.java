@@ -2,6 +2,9 @@ package com.beyond.z_streamAPI;
 
 
 import com.beyond.z_streamAPI.stream_practice.D_Mapping;
+import com.beyond.z_streamAPI.stream_practice.F_Match;
+import com.beyond.z_streamAPI.stream_practice.G_Aggregate;
+import com.beyond.z_streamAPI.stream_practice.H_Collect;
 
 public class StreamApplication {
     /**
@@ -29,6 +32,11 @@ public class StreamApplication {
 //        // Sorted 메소드
 //        new C_Sorted().method3();
         // Map 메소드
-        new D_Mapping().method2();
+//        new D_Mapping().method2();
+        // Match 메소드
+//        new F_Match().method2();
+        // Aggregate 메소드
+//        new G_Aggregate().method1();
+        new H_Collect().method1();
     }
 }
